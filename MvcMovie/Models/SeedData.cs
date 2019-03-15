@@ -22,34 +22,29 @@ namespace MvcMovie.Models
                 context.Movie.AddRange(
                     new Movie
                     {
-                        Title = "When Harry Met Sally",
-                        ReleaseDate = DateTime.Parse("1989-2-12"),
-                        Genre = "Romantic Comedy",
+                        Title = "The RM",
+                        ReleaseDate = DateTime.Parse("2013-1-13"),
+                        Genre = "Religious Comedy",
+                        Rating = "PG",
                         Price = 7.99M
                     },
 
                     new Movie
                     {
-                        Title = "Ghostbusters ",
-                        ReleaseDate = DateTime.Parse("1984-3-13"),
-                        Genre = "Comedy",
+                        Title = "Other Side of Heaven",
+                        ReleaseDate = DateTime.Parse("2001-12-14"),
+                        Genre = "Drama/Adventure",
+                        Rating = "PG",
                         Price = 8.99M
                     },
 
                     new Movie
                     {
-                        Title = "Ghostbusters 2",
-                        ReleaseDate = DateTime.Parse("1986-2-23"),
-                        Genre = "Comedy",
+                        Title = "Meet the Mormons",
+                        ReleaseDate = DateTime.Parse("2014-10-10"),
+                        Genre = "Documentary",
+                        Rating = "PG",
                         Price = 9.99M
-                    },
-
-                    new Movie
-                    {
-                        Title = "Rio Bravo",
-                        ReleaseDate = DateTime.Parse("1959-4-15"),
-                        Genre = "Western",
-                        Price = 3.99M
                     }
                 );
                 context.SaveChanges();

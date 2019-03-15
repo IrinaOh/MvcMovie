@@ -1,0 +1,82 @@
+﻿/* Google font Thasadith */
+@import url('https://fonts.googleapis.com/css?family=Roboto|Thasadith');
+
+body {
+    background-color: #333333;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+/* button styles */
+.btn {
+    background-color: #F19F4D;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    width: 150px;
+    margin: 10px;
+    padding: 5px 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+    .btn:hover {
+        background-color: white;
+        color: #F19F4D;
+    }
+
+select {
+    margin: 30px;
+    margin-left: 10px;
+    width: 150px;
+    padding: 5px 35px 5px 5px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    height: 34px;
+    background: white;
+}
+
+.user-input {
+    border-radius: 20px;
+    padding: 5px 20px;
+    border: none;
+}
+
+/* table styles */
+table {
+    border: 1px solid white;
+}
+
+thead {
+    background-color: #F9CF00;
+}
+
+    thead a {
+        color: #F19F4D;
+    }
+
+thead a:hover {
+    color: #DFDCE3;
+    text-decoration: none;
+}
+
+td {
+    background-color: #4484CE;
+}
+
+.sort-btn:hover {
+    color: #F7B733;
+}
+
+.crud-btn {
+    color: #F19F4D;
+}
+
+.crud-btn:hover {
+    color: white;
+}
+
+/* main navigation */
+nav a:hover {
+    color: #F7B733;
+}
+/* search and filter */
